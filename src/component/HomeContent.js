@@ -121,24 +121,6 @@ export default function HomeContent() {
 
                 </div>
 
-                {/* <div>
-               
-                  <Accordion>
-                    <AccordionSummary
-                      expandIcon={<ExpandMoreIcon />}
-                      aria-controls="panel1a-content"
-                      id="panel1a-header"
-                    >
-                      <Typography>Soil_moisture_1_3cm </Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                      <Typography>
-                        {weatherData.hourly.soil_moisture_1_3cm.map((x, index) => (<div key={index} >{x} %</div>))}
-                      </Typography>
-                    </AccordionDetails>
-                  </Accordion>
-                
-                </div> */}
 
                 <div>
 
@@ -179,24 +161,7 @@ export default function HomeContent() {
 
                 </div>
 
-                {/* <div>
-         
-                  <Accordion>
-                    <AccordionSummary
-                      expandIcon={<ExpandMoreIcon />}
-                      aria-controls="panel1a-content"
-                      id="panel1a-header"
-                    >
-                      <Typography> Soil_temperature_6cm</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                      <Typography>
-                        {weatherData.hourly.soil_temperature_6cm.map((x, index) => (<div key={index} >{x} °C</div>))}
-                      </Typography>
-                    </AccordionDetails>
-                  </Accordion>
-                  
-                </div> */}
+             
 
                 <div>
 
